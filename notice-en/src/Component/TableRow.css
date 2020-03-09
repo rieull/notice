@@ -1,0 +1,57 @@
+.item{
+    line-height: 35px;
+    border-bottom: 1px solid lightgrey;
+    cursor: pointer;  
+    display: table-row-group;
+}
+.row-head:hover{
+    background-color: rgb(240, 238, 238);
+}
+
+
+
+.row-title{
+    width: 80%;
+    padding: 5px 5px 5px 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    display:table-cell;
+    text-align: left;
+}
+
+.row-date{
+    width: 20%;
+    text-align: center;
+    font-size: 13px;
+    display:table-cell;
+    text-align: left;
+}
+
+.row-content{
+    padding: 5px 5px 5px 20px;
+    text-align: left;
+    font-size: 13px;
+
+}
+
+/* .row-head{
+
+} */
+
+tr{
+    display:table-row;
+}
+
+.hide{
+    visibility: collapse;
+}
+
+tbody{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: table-row-group;
+    border-collapse: collapse;
+}
